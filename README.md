@@ -15,14 +15,6 @@ It includes a large clock, configurable search engine selector, customizable sho
 - Local persistence with `localStorage`
 - Embedded SVG favicon
 
-## File Structure
-
-```text
-.
-|- index.html
-`- README.md
-```
-
 ## Usage
 
 Open `index.html` directly in a browser, or serve it from a local/static web server.
