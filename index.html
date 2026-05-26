@@ -432,6 +432,8 @@
     .list-card {
       display: flex;
       flex-direction: column;
+      height: 510px;
+      overflow: hidden;
     }
 
     .field { margin-bottom: 14px; }
@@ -489,20 +491,20 @@
     .shortcuts-list {
       display: grid;
       gap: 10px;
+      align-content: start;
       flex: 1;
       min-height: 0;
-      max-height: 398px;
       overflow-y: auto;
       overflow-x: hidden;
       padding-right: 6px;
       scrollbar-width: thin;
-      scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+      scrollbar-color: rgba(125, 211, 252, 0.35) rgba(255, 255, 255, 0.04);
     }
 
-    .shortcuts-list::-webkit-scrollbar { width: 5px; }
-    .shortcuts-list::-webkit-scrollbar-track { background: transparent; }
-    .shortcuts-list::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 999px; }
-    .shortcuts-list::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.28); }
+    .shortcuts-list::-webkit-scrollbar { width: 6px; -webkit-appearance: none; }
+    .shortcuts-list::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.04); border-radius: 999px; }
+    .shortcuts-list::-webkit-scrollbar-thumb { -webkit-appearance: none; background: rgba(125, 211, 252, 0.32); border-radius: 999px; border: 1px solid transparent; background-clip: padding-box; }
+    .shortcuts-list::-webkit-scrollbar-thumb:hover { background: rgba(125, 211, 252, 0.58); background-clip: padding-box; border: 1px solid transparent; }
 
     .list-item {
       display: flex;
@@ -511,7 +513,8 @@
       border: 1px solid rgba(255, 255, 255, 0.10);
       background: rgba(2, 6, 23, 0.34);
       border-radius: 16px;
-      padding: 10px 12px;
+      padding: 0 12px;
+      height: 66px;
     }
 
     .drag {
