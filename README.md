@@ -13,29 +13,12 @@ It includes a large clock, configurable search engine selector, customizable sho
 - Add, edit, delete, and reset shortcuts
 - Drag-and-drop reordering on desktop and touch devices
 - Local persistence with `localStorage`
-- Embedded SVG favicon
 
 ## Usage
 
 Open `index.html` directly in a browser, or serve it from a local/static web server.
 
 For the best cross-browser behavior, especially around favicons and local security restrictions, serving over HTTP is recommended.
-
-Examples:
-
-```powershell
-# Python
-python -m http.server 8080
-
-# Node.js
-npx serve .
-```
-
-Then open:
-
-```text
-http://localhost:8080
-```
 
 ## Customization
 
