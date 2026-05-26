@@ -55,20 +55,6 @@ The page stores its state in `localStorage`, including:
 
 Using **Reset defaults** restores the default shortcuts and clears all saved `localStorage` data for the page.
 
-## Publishing To GitHub
-
-This project is ready for a simple static hosting setup.
-
-### GitHub Pages
-
-1. Create a new GitHub repository.
-2. Add `index.html` and `README.md`.
-3. Push to the default branch.
-4. In GitHub repository settings, enable **GitHub Pages**.
-5. Set the source to the root of your branch.
-
-After publishing, your page will be available from your GitHub Pages URL.
-
 ## Browser Notes
 
 - The page includes handling for browser differences around overscroll and touch dragging.
